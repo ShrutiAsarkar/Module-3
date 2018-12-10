@@ -1,0 +1,20 @@
+{
+  "name": "hpitodo",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "hapi": "^17.8.1",
+    "hapi-auth-jwt2": "github:salzhrani/hapi-auth-jwt2#v-17",
+    "jwks-rsa": "^1.3.0",
+    "mongoose": "^5.3.15",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.7"
+  }
+}
